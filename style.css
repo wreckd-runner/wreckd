@@ -1,0 +1,176 @@
+<style>
+/* BASE STYLES */
+body {
+    background-color: #fff;
+    color: #01796f;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #01796f;
+    margin-top: 0;
+}
+
+.byline {
+    font-style: italic;
+    margin: 5px 0 40px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+nav {
+    border-bottom: 2px solid #01796f;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #01796f;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #01796f;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 0px;
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 2.5em;
+    letter-spacing: -1px;
+    border-left: 10px solid #01796f;
+    padding-left: 15px;
+}
+
+/* BOXES */
+.box {
+    border: 1px solid #01796f;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0px;
+}
+
+/* TRIP & MEMBERSHIP NAV */
+.trip-nav,
+.policy-nav {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px dashed #01796f;
+    border-radius: 0px;
+}
+
+.trip-nav a,
+.policy-nav a {
+    font-size: 0.9em;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #01796f;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #01796f;
+    padding: 8px;
+    font-size: 0.9em;
+}
+
+th {
+    background-color: #01796f;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 100px;
+    font-size: 0.8em;
+    border-top: 1px solid #01796f;
+    padding-top: 10px;
+}
+
+/* SECTIONS */
+.section {
+    display: none; /* required for JS toggle */
+}
+
+.section.active {
+    display: block; /* required for JS toggle */
+}
+
+/* SUB-PAGES */
+.sub-page {
+    display: none; /* required for JS toggle */
+    border-top: 1px solid #01796f;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.sub-page.active {
+    display: block; /* required for JS toggle */
+}
+
+/* LINK TEXT */
+.link-text {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #01796f;
+}
+
+/* ANCHORS */
+a {
+    color: #01796f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;        /* remove default bullets */
+    padding-left: 25px;      /* space for custom bullet */
+    margin: 0 0 15px 0;      /* spacing after list */
+}
+
+ul li {
+    position: relative;
+    margin-bottom: 8px;      /* spacing between items */
+    padding-left: 20px;      /* space for bullet */
+}
+
+ul li::before {
+    content: "";             /* pseudo-element for bullet */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;             /* bullet width */
+    height: 10px;            /* bullet height */
+    border: 1px solid #01796f; /* bullet color */
+    background-color: transparent; /* hollow inside */
+    border-radius: 0;        /* sharp corners */
+    box-sizing: border-box;
+}
+
+</style>
+</head>

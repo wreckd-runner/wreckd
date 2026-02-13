@@ -1,7 +1,8 @@
 backend:
-  name: github
-  repo: wreckd-runner/wreckd
-  branch: main
+  name: git-gateway
+  branch: main  # or the branch you want to edit
+  identity_url: https://YOUR-NETLIFY-SITE.netlify.app/.netlify/identity
+  gateway_url: https://YOUR-NETLIFY-SITE.netlify.app/.netlify/git
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
@@ -15,4 +16,3 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-

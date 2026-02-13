@@ -1,4 +1,4 @@
-<script>
+
 function showSection(id) {
     // hide all sections
     document.querySelectorAll('.section')
@@ -44,4 +44,3 @@ window.addEventListener('load', () => {
         showSection(hash);
     }
 });
-</script>

@@ -1,4 +1,3 @@
-
 <script>
 function showSection(id) {
     // hide all sections

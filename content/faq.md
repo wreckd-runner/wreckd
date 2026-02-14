@@ -1,5 +1,1 @@
----
-title: Faq
----
-Welcome to the Faq page!
-
+<p>---</p><p>title: faq</p><p>---</p><p>Welcome to the faq!</p><p></p>

@@ -4,6 +4,8 @@ content:
     type: collection
     path: content
     format: md
+    # This line tells the CMS to show the filename in the list
+    identifier: title 
     fields:
       - name: title
         label: Title

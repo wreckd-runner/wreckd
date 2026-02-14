@@ -1,5 +1,1 @@
----
-title: Safety
----
-Welcome to the Safety page!
-
+<p>---</p><p>title: safety</p><p>---</p><p>Welcome to the about!</p><p></p>

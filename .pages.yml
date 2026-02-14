@@ -1,32 +1,15 @@
-backend:
-  name: github
-  repo: wreckd-runner/wreckd   # replace with your repo
-  branch: main                    # or master if your default branch
-
-media_folder: "assets/uploads"
-public_folder: "/uploads"
-
-collections:
+content:
   - name: pages
     label: Pages
-    files:
-      - file: content/home.md
-        label: Home
-        name: home
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
-
-      - file: content/about.md
-        label: About
-        name: about
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
-
-      - file: content/contact.md
-        label: Contact
-        name: contact
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+    type: collection
+    path: content       # folder containing markdown pages
+    format: md          # markdown format
+    identifier: title   # use front-matter 'title' as the label in CMS list
+    fields:
+      - name: title
+        label: Page Title
+        type: string
+      - name: body
+        label: Page Content
+        type: rich-text
+        isBody: true

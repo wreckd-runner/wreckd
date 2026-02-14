@@ -9,6 +9,7 @@ content:
       - name: title
         label: Page Title
         type: string
+        default: "New Page"
       - name: body
         label: Page Content
         type: rich-text

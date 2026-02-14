@@ -7,9 +7,9 @@ content:
     identifier: title
     fields:
       - name: title
-        label: title
+        label: Page Title
         type: string
       - name: body
-        label: content
+        label: Page Content
         type: rich-text
         isBody: true

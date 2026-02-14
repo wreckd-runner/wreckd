@@ -4,8 +4,8 @@ content:
     type: collection
     path: content
     format: md
-    # This tells the CMS to use the filename for the list view
-    identifier: name 
+    # This forces the list to show "home", "about", etc.
+    identifier: name
     fields:
       - name: title
         label: Page Title

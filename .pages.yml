@@ -1,13 +1,14 @@
 content:
-  - name: content
-    label: Content
+  - name: pages
+    label: Pages
     type: collection
     path: content
     format: md
     fields:
       - name: title
-        label: Title
+        label: Page Title (For CMS only)
         type: string
       - name: body
-        label: Body
+        label: Page Content
         type: rich-text
+        isBody: true

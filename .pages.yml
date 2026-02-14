@@ -2,9 +2,9 @@ content:
   - name: pages
     label: Pages
     type: collection
-    path: content       # folder containing markdown pages
-    format: md          # markdown format
-    identifier: title   # use front-matter 'title' as the label in CMS list
+    path: content
+    format: md
+    identifier: title
     fields:
       - name: title
         label: Page Title

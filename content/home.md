@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # W.R.E.C'kd
 
 _Wilderness Running and Endurance Collective Inc._

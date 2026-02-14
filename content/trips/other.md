@@ -1,5 +1,1 @@
----
-title: Other
----
-Welcome to the Other page!
-
+<p>---</p><p>title: other</p><p>---</p><p>Welcome to the about!</p><p></p>

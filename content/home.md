@@ -1,5 +1,3 @@
----
-title: Home
----
+--- title: Home --- 
 
 This is my content.

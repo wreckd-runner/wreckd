@@ -1,4 +1,11 @@
-file: "content/home.md"
+backend:
+  name: github
+  repo: wreckd-runner/wreckd  # replace with your repo
+  branch: main                  # or master if that’s your default branch
+
+media_folder: "assets/uploads"  # folder for images
+public_folder: "/uploads"
+
 collections:
   - name: "pages"
     label: "Pages"

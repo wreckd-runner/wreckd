@@ -1,1 +1,5 @@
-<p></p>
+---
+title: Home
+---
+
+This is my content.

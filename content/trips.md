@@ -1,13 +1,1 @@
----
-title: Trips
----
-Welcome to the home page!
-
-
-# Trips & Events
-
-Select a mission:
-
-- [Mukamuka Munter](#mukamuka-munter)
-- [Aorangi Undulator](#aorangi-undulator)
-- [Other](#other)
+<p>---</p><p>title: trips</p><p>---</p><p>Welcome to the about!</p><p><br><br><br>Welcome to the home page! # Trips &amp; Events Select a mission: - [Mukamuka Munter](#mukamuka-munter) - [Aorangi Undulator](#aorangi-undulator) - [Other](#other)</p>

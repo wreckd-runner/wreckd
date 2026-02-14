@@ -1,3 +1,9 @@
+backend:
+  name: github
+  repo: wreckd-runner/wreckd
+  branch: main   # must match your GitHub Pages branch
+
+
 content:
   - name: pages
     label: Pages

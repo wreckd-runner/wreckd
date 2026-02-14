@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: wreckd-runner/wreckd   # replace with your repo
+  branch: main                    # or master if your default branch
+
+media_folder: "assets/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: content/home.md
+        label: Home
+        name: home
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: content/about.md
+        label: About
+        name: about
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: content/contact.md
+        label: Contact
+        name: contact
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }

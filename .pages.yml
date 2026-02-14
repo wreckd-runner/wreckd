@@ -4,11 +4,13 @@ content:
     type: collection
     path: content
     format: md
-    identifier: title  # The CMS will look for the 'title' field in your Markdown
+    identifier: title
     fields:
       - name: title
         label: Title
         type: string
+      # Notice the 'layout: body' addition here
       - name: body
         label: Body
         type: rich-text
+        layout: body

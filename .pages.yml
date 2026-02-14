@@ -4,9 +4,11 @@ content:
     type: collection
     path: content
     format: md
+    # This tells the CMS to use the filename for the list view
+    identifier: name 
     fields:
       - name: title
-        label: Page Title (For CMS only)
+        label: Page Title
         type: string
       - name: body
         label: Page Content

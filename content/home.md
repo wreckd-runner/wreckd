@@ -1,1 +1,1 @@
-<p>---</p><p>title: home</p><p>---</p><p>Welcome to the home!</p><p></p>
+<p>---</p><p>title: Home</p><p>---</p><p>Welcome to the site!</p><p></p>

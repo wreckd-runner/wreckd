@@ -1,16 +1,13 @@
-backend:
-  name: git-gateway
-  branch: main
-
-media_folder: "assets/images"
-public_folder: "/assets/images"
-
-collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "content"
-    create: false
-    slug: "{{slug}}"
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: content
+    format: md
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text

@@ -1,3 +1,9 @@
+---
+title: Trips
+---
+Welcome to the home page!
+
+
 # Trips & Events
 
 Select a mission:

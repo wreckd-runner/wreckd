@@ -1,3 +1,12 @@
+// Inside your loadPage function, change how you handle the text:
+const rawText = await response.text();
+
+// This regex removes everything between the --- markers
+const cleanMarkdown = rawText.replace(/^---[\s\S]*?---/, ''); 
+
+document.getElementById('content').innerHTML = marked.parse(cleanMarkdown);
+
+
 async function loadPage(page) {
     try {
         const response = await fetch(`content/${page}.md`);

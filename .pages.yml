@@ -1,16 +1,13 @@
 content:
-  - name: pages
-    label: Pages
+  - name: content
+    label: Content
     type: collection
     path: content
     format: md
-    identifier: title
     fields:
       - name: title
         label: Title
         type: string
-      # Notice the 'layout: body' addition here
       - name: body
         label: Body
         type: rich-text
-        layout: body
